@@ -12,6 +12,8 @@ class ApplicationController < ActionController::Base
 
 		@comment = Comment.new
 		@comment.article_id = @article.id
+
+		
 	end
 
 	def new
